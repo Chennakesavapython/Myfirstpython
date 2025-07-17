@@ -1,7 +1,7 @@
 15/July
 
 
---> what is python
+--> what is python ?
    -> it is high level language
    -> scripting language
    ->object-oriented language
