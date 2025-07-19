@@ -105,3 +105,40 @@
         -> Git Bash (Version Controlling) (Tracking Source Code) (Client Software)
 
         -> Setup GitHub Account (Store Code) (Service Provider)   
+
+        19th July
+
+        -> There are two modes to execute program of python
+        ->Script mode
+                       ->IDE
+        -> interactive mode or commond mode
+                  ->Python Interpreter
+
+
+      -> Keyword
+         -> it is predefined reserved words   ex-async,break etc   
+
+       -> variables
+
+           ->to store data     
+
+
+        -> datatype
+            ->to store different types of data.there aredifferent types of datatypes
+
+
+       ->sort of variables we create ,we have rules
+
+       ->Identifiers
+          -> can letters(a-z)
+          ->numbers
+          ->Underscore
+
+         ->Must start with
+            ->alphabets
+            ->Underscore
+         ->cannot start with digit
+         ->cannot be a phython Keyword           
+
+       -> we use type() to know what type of data
+       -> we use id() to know the addres sof the data  
