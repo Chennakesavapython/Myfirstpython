@@ -142,3 +142,60 @@
 
        -> we use type() to know what type of data
        -> we use id() to know the addres sof the data  
+
+
+
+
+         24/07/25
+
+  =>Control statements
+
+
+  ==> conditioal statements
+  => conditional statements with output a boolean value is based  on conditional declaration.
+
+
+
+  Indentation rules
+      => use either space or tabes,but not both(python recommends 4 spaces)
+
+      => make sure all the lines same block,have same indention level
+
+      => input() = predefined function in python that interacts with the user.
+
+
+
+    =>    type conversion
+        -> it converts one datatype to another datatype
+        ->> converting smaller datatype to lager datatype is considered as ssafe operation (Or) ["widening"]
+        ->> its automatically handled by python.
+
+
+
+        -> converting larger data type to samller datatype is called typecasting.
+        ->it is handled by the developer
+
+        -> int() ----> float() etc
+
+
+        -> ternary operator/ conduional operator
+
+
+
+
+
+  
+
+
+
+
+     => if
+          = > executes when if is true condition
+     ,ifelse
+     allows to check one or two conditions
+     ,elif
+     it allows to check multipleconditions statements,
+     => matched case(3.1+1)
+
+
+     => Nested condition = > inside a condition we can write the same condition.
