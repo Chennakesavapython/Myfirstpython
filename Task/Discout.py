@@ -1,5 +1,5 @@
 St_name=input("Enter the student name:")
-St_grade = int(input("Enter the student grade betwen 1-12"))
+St_grade = int(input("Enter the student grade betwen 1-12:a"))
 tution_fee = int(input("enter the tution base fee"))
 topper_st = input("wheather the student is topper(yes or no) ")
 
