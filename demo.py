@@ -83,16 +83,16 @@ match choice:
 
 #nested condition
 #club entry ----> if age is 21 or abobe and else a valid id should be presented.
- age= 23
-has_id = True
+ #age= 23
+#has_id = True
 
-if age>=21:
-    if has_id:
-        print("your are allowed to enter")
-    else:
-        print("you need id to enter")
-else:
-    print("you are too younger to enter")            
+#if age>=21:
+  #  if has_id:
+     #   print("your are allowed to enter")
+    #else:
+      #  print("you need id to enter")
+#else:
+ #   print("you are too younger to enter")            
 
 
 
