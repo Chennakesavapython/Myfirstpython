@@ -228,3 +228,47 @@
         -> continue - used to skip the current Iteration
 
         -> pass - does nothing, used as a placeholder for future code
+
+
+
+        =============
+        -> variable = 10
+        -> multiple values = 10 20 40 incorrect
+
+        ->collection -sequence of data which 
+
+        -> basic collection type is strings
+        -> Advanced collection types
+        ->lists
+        ->tuples
+        ->distonaries
+        ->>sets
+
+        -> strings
+
+
+
+        -->python goes indexing for accessing individual characters.
+             ->we have positive indexing(left to right)
+             -> we have neagative indexing (right to left)
+
+             0  1  2  3  4  5  (positive)
+             p  y  t  h  o  n 
+             -6 -5 -4 -3 -2 -1 (negative)
+
+
+             ->Accessing index out of range causes an error
+                    IndexError: string index out of range
+    -> Slicing -to access a range of characters inside the string 
+       (range) => start,stop,Setup
+
+
+       slicing - > start.stop,stepup
+
+
+
+
+     -> Stringimmutability
+
+
+       
