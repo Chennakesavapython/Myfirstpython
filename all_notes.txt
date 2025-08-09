@@ -272,7 +272,134 @@
         -> data once created can not be changed.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7th august 2025
+
+-> Dictonaries
+
+->In python dictionaries are built in data structure that allows to store multile sets
+    of keys & values in a single variable using {} (curly brackets)
+
+-> key value Pairs (item)    
+-> it has no indexing no slicing-> no concept ofinex in dictionaries
+
+---> As we use key & values
+    
+     -> keys can be Immutables (tuples,strings)
+     -> values can be a object
         
+     ->> if we give keys to mutable ,we get unhashable tpe error
+
+     -> we cannot use list as key inn dictionaries
+     -> we cannot use list as a set element element
+
+     -> 90% of the timme keys will be strings
+
+
+
+
+
+     -> Sets
+
+-> In python, Sets are built in data structure that allows to store multiple 
+    values in a single variable using { } (curly braces)
+
+-> In sets we don't have keys like Dictionaries, only values
+
+    -> dict = {1:10,2:20}
+    -> set = {1,10,2,20} -> {10,20,1,2}
+
+-> Set are UUU 
+
+    -> U - Unique (No Duplicates, Duplicates will be removed)
+    -> U - Unorderd (Insertion Order Not Preserved)
+    -> U - Unindexed (No Index, So NO INDEXING & NO SLICING)
+
+    -> SETS - used to perform Set related mathematical operations
+
+    -> Union
+    -> Intersection
+    -> Difference 
+    -> Symmetric Difference
+
+
+9th Aug
+=========
+
+-> Set operations
+
+-> Sets have 17 methods 
+
+-> FrozenSet
+
+    -> Regular Set is Mutable (Can be Changed)
+    -> FrozenSet is Immutable (Cannot be Changed)
+
+    -> FrozenSets only support set specific operations
+
+
+-> Key Characteristics of Sets
+
+    -> UnOrdered - Items are not stored in order, and order is not preserved
+
+    -> MUTABLE - You can change data
+
+    -> Duplicates - Not Allowed         
+
+    -> NOTE - When you need Uniqueness in data go for sets
+
+    NOTE- IMMUTABLE version of set is FROZENSET use frozenset class
+
+
+-> Database operations
+
+    -> CRUD - Create / Read / Update / Delete 
+
+        -> In future w.r.t Databases you can perform them using Web Applications
+
+        -> Now we are going to use Console Based Programs to achieve same
+
+    -> LMS (Student - Trainer - Course - etc)   
+
+        -> We want all our data structures to be implemented using LMS Applications
+
+            -> Lists - Scores
+            -> Tuples - ?
+            -> Dictionaries - student 
+            -> Sets - Skills
+
+        -> Student (ID,Name,Scores,Skills)
 
 
        
