@@ -139,6 +139,12 @@ while True:
 
     elif choice == "5":
          print("Performming Operation 5")
+         print("="*50)
+         print("Contact Admin for further queries")
+         print(f"admin contact {ADMIN_INFO[0]}")
+         print(f"admin contact {ADMIN_INFO[1]}")
+         print("="*50)
+         
         
 
          break
