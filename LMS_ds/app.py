@@ -39,7 +39,7 @@ while True:
         else: 
             std_name = input("enter student name").title()
             #store multiple scoores
-            Scores = []
+            scores = []
             while True:
             
              score_input = input("enter the score or done: ") 
@@ -50,7 +50,7 @@ while True:
                 score = int(score_input)
 
                 if 0 <= score <= 100:
-                 Scores.append(score)
+                 scores.append(score)
                 else:
                  print("Score should be between 1-100")
              else:
@@ -67,7 +67,7 @@ while True:
             #save student details received so d=far
             Students[std_id] = {
                 "name": std_name,
-                "scores":score,
+                "scores":scores,
                 "skills": skills
             }      
             print("student added successfully!")
@@ -104,8 +104,43 @@ while True:
 
     elif choice == "4":
          print("Performming Operation 4")
+         #studentid --> std_id
+         #skills
+         #scores
+         #students
+         if not Students:
+             print("No students Available")
+         else:
+             print("="*50)
+             print("STUDENT DETAILS") 
+             print("="*50)
+
+
+             for sid, data in Students.items():#items() is used when the keys and values are available in the data
+                 name = data["name"]
+                 scores = data["scores"]
+
+
+                 if scores:
+                     avg = sum(scores)/len(scores)
+                 else:
+                     avg = 0
+                 if scores:
+                     top_score = max(scores)        
+                 else:
+                     top_score = 0
+                 skills = data["skills"] 
+                 print(f"ID: {sid}") 
+                 print(f"Name: {name}")
+                 print(f"scores: {scores}")
+                 print(f"Avarage Score : {avg}")   
+                 print(f"Top Score : {top_score}")
+                 print(f"skills count : {len(skills)}")
+
     elif choice == "5":
          print("Performming Operation 5")
+        
+
          break
     else: 
          print("Invalid Choice")     
