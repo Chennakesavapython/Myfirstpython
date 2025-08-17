@@ -1,0 +1,105 @@
+a=100
+b=200
+def arithematic():
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    print(a/b)
+
+arithematic()
+
+
+
+def arithematic(a,b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    print(a/b)
+
+#arithematic()#TypeError: arithematic() missing 2 required positional arguments: 'a' and 'b'
+
+def arithematic(a,b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    print(a/b)
+arithematic(100,250)
+
+
+
+#positional arguments
+def login(username,password):
+    if username == "chenna" and password == "12345":
+        print("login success")
+    else:
+        print("login failed")
+
+login("chenna","12345")  #exact order
+login("chenna","123") 
+login("12345","chenna")#change order  -> login failed
+
+
+#default arguments
+
+def emp_info(emp_name,emp_email,emp_loc= "hyderabad",address= "india"):
+    print(f"Hi {emp_name} your email is {emp_email} and location is {emp_loc} actually from {address}")
+
+
+emp_info("chenna","chenna@gmail.com",)    #if all the have locaton hyderabad we have initiated the values at the emp_loc
+emp_info("user1","chenna@gmail.com",)
+#emp_info("chenna2","chenna@gmail.com","bangloore")
+emp_info("chenna2","bangloore","chenna@gmail.com")
+emp_info("chenna4","chenna1@gmail.com","pune","USA")
+
+
+
+#keyword based arguments
+
+def emp_info(emp_name,emp_email,emp_loc,address ):
+    print(f"Hi {emp_name} your email is {emp_email} and location is {emp_loc} actually from {address}")
+emp_info(emp_name="chenna4",emp_email="chenna1@gmail.com",emp_loc="pune",address="USA")
+
+
+
+# arbitary positional arguments  (*args)
+def add_all(*numbers):
+    total = 0
+    for i in numbers:
+        total = total+i
+        print(f"total is : {total}")
+
+add_all(4)      
+add_all(4,3,5,6,7,8,9,1,12)        
+
+
+#arbitrary keyword arguments    (**kwargs) 
+def profile(**info):
+    print(info)
+profile()
+profile(id="101")
+profile(id="102",name="chenna")
+profile(id=102,name="chenna",rating=4.5)    
+
+
+
+#transcation applications
+def cred_trans(**trans):
+    print(trans)
+    total = 0
+    for i in trans:
+        print(i)
+        total=total+trans[i]
+    print(f"you have done {len(trans)} and total value of all transacations is {total}")
+cred_trans(jan=1200,feb=2000,mar=3000)        
+
+
+#using *args and **kwarg
+
+def cred_trans_new(*trans,**info):
+    print(trans)
+    print(info)
+    total = 0
+    for i in trans:
+        total = total+i
+        print(f"hi {info['name']}you have done {total} amount of transcation")
+cred_trans_new(1000,2000,6000,name="chenna",email="chenna@gmail.com")    

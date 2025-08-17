@@ -407,5 +407,55 @@
 
   ==> Data structure
 
+   16th aug 2025
+   =============
 
-       
+
+   ==> Functional Based Programming
+       -> function  - Function is a block of code which perform some tasks or actions or applications.
+
+       -> functions can help break down complex problems into simpler and mallwe manageble tasks
+        
+        -> you can call a function,multiple times which avoids code repetition
+        and helps you get code reusability
+
+        -> function syntax
+            def function_name():
+            statements
+
+        -> function with parameters
+           -> This approach allows your function to take dynamic inputs  
+        ->Based on arguments passes,we have different typess of functions
+          1.positional arguments
+          2.default arguments
+          3.keyword arguments
+          4.arbitary positional arguments  (*args)
+          5.arbitrary keyword arguments    (**kwargs) 
+
+       1.positional arguments --> the passed argument to the function,should have exact order defind in function signature
+         
+          -> here positions will change fuctionality,if incorrectly used
+       2. default arguments
+           -> passing default values as a arguments to the function
+        -> default values will be overridden by values passed at the function call
+        -> once start adding a default argument ,the next preceeding values should be default only not other types
+ 
+
+
+      3.keyword arguments
+        ->arguments are passed by expplicitly specifying the name ,so function call is based on the name of the argument
+        -> order doesn't matter any more.
+
+        ->improves code readuability and avoids confusion,when multiple parameters.
+
+       4.arbitary [random or unknown] positional arguments  (*args)  
+
+        -> these function will accept any number of positions based on the argument
+
+        -> all values will be collected into tuple
+
+       5.arbitrary keyword arguments    (**kwargs) 
+
+         -->  These functions will accept any number of keywords based argumnents 
+
+         --> All values will be collected into a dictionary.
