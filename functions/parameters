@@ -103,3 +103,7 @@ def cred_trans_new(*trans,**info):
         total = total+i
         print(f"hi {info['name']}you have done {total} amount of transcation")
 cred_trans_new(1000,2000,6000,name="chenna",email="chenna@gmail.com")    
+
+
+
+
